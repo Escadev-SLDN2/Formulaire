@@ -1,0 +1,1 @@
+CREATE DATABASE formulaire CHARACTER SET 'utf8';

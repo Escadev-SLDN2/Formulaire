@@ -1,4 +1,3 @@
-CREATE DATABASE formulaire CHARACTER SET 'utf8';
 USE formulaire;
 
 CREATE TABLE users (
