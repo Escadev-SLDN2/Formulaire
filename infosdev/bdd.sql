@@ -6,3 +6,12 @@ CREATE TABLE users (
     name varchar(255) not null,
     email varchar(255) not null
 );
+
+INSERT INTO users (
+	name, 
+    email
+) 
+VALUES (
+	"Bob Marley", 
+    "bob@marley.jm"
+);
