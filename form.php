@@ -10,6 +10,10 @@ if(empty($formData['str_name']) || empty($formData['str_email']) || empty($formD
     if($formData['str_password'] !== $formData['str_passwordConfirm']) {
         $message = '<p class="text-danger text-center">Veuillez saisir <strong>deux fois le même mot de passe</strong>.</p>';
     } else {
+        // Enregistrement en BDD
+        
+
+        // Message de succès
         $message  = '<p class="text-success text-center">Le formulaire est <strong>bien rempli</strong>.</p>';
         $message .= "<p><strong>Rappel :</strong></p>";
         $message .= "<ul>";
